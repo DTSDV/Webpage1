@@ -1,0 +1,276 @@
+html {
+    min-width:1903px;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+/* Moving bubbles effect ********************/
+#center {
+    position:relative;
+    text-align:center;
+    top:2em;
+    font-size:600%;
+    z-index:10;
+}
+
+.circle1 {
+    position:relative;
+    width:200px;
+    height:200px;
+    background:red;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:200px;
+    left:14em;
+    top:-10em;
+    opacity:0.6
+}
+
+.circle2 {
+    position:relative;
+    width:400px;
+    height:400px;
+    background:orange;
+    -moz-border-radius:2000px;
+    -webkit-border-radius:200px;
+    border-radius:200px;
+    left:60em;
+    top:-7em;
+    opacity:0.3;
+    z-index:0;
+}
+
+.circle3 {
+    position:relative;
+    width:450px;
+    height:450px;
+    background:yellow;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:250px;
+    top:-53em;
+    opacity:0.3;
+    left:34em;
+}
+
+.circle4 {
+    position:relative;
+    width:350px;
+    height:350px;
+    background:red;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:175px;
+    top:-55em;
+    opacity:0.3;
+    left:34em;
+}
+
+.circle5 {
+    position:relative;
+    width:350px;
+    height:350px;
+    background:yellow;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:175px;
+    opacity:0.4;
+    top:-100em;
+    left:74em;
+}
+
+.circle6 {
+    position:relative;
+    width:350px;
+    height:350px;
+    background:orange;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:175px;
+    top:-110em;
+    opacity:0.7;
+    left:20em;
+}
+
+.circle7 {
+    position:relative;
+    width:375px;
+    height:375px;
+    background:red;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:200px;
+    top:-160em;
+    opacity:0.4;
+    right:-50%;
+}
+
+.circle8 {
+    position:relative;
+    width:350px;
+    height:350px;
+    background:red;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:250px;
+    top:-170em;
+    opacity:0.35;
+    right:-80%;
+}
+
+.circle9 {
+    position:relative;
+    width:300px;
+    height:300px;
+    background:orange;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:175px;
+    top:-175em;
+    opacity:0.4;
+    right:-63%;
+}
+
+/* Parallax Effect ***************************/
+#secondcenter {
+    position:relative;
+    text-align:center;
+    top:-16em;
+    font-size:600%;
+    z-index:9;
+    color:white;
+    font-family:century gothic;
+}
+
+#secondcenter #leaf {
+    position:absolute;
+    /*top:-260em;
+    left:30.5em;*/
+    top:-1em;
+    left:26%;
+    width:400px;
+    height:300px;
+    background-image:url('leafb.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    z-index:-1;
+}
+.parallax_bg {
+    position:relative;
+    top:-205em;
+    height:950px;
+    background-image:url('fall.jpg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    width:100%;
+    height:0;
+    padding-top:120%;
+    z-index:-10;
+}
+
+#whitespace {
+    position:absolute;
+    height:15.5em;
+    width:100%;
+    background:white;
+    z-index:-9;
+    top:0px;
+    font-size:600%;
+    color:red;
+}
+
+
+
+/* Fade in words ***********************************/
+#thirdcenter {
+    position:relative;
+    font-size:500%;
+    text-align:center;
+    top:-41em;
+    z-index:100;
+}
+
+#fadedwords1 {
+    position:relative;
+    font-size:700%;
+    text-align:center;
+    top:-28em;
+    opacity:0;
+    transition: opacity 2s linear;
+    font-family:Impact;
+}
+
+/* Scrolling *****************************************/
+#fourthcenter {
+    position:relative;
+    font-size:500%;
+    text-align:center;
+    top:-33em;
+}
+
+#fourthcenter #mouse {
+    position:absolute;
+    background-image:url('mouse.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    height:50px;
+    width:110px;
+    top:-0.2em;
+    /*left:13.7em;*/
+    left:63%;
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}
+
+#scrollbutton {
+    font-size:160%;
+}
+
+#scrollbutton a {
+    text-decoration:none;
+    color:red;
+}
+
+#scrolllocation {
+    position:relative;
+    font-size:500%;
+    text-align:center;
+    top:30em;
+    text-decoration:none;
+    color:black;
+}
+
+/* Next Button *************************************************/
+#button {
+    position:relative;
+    text-align:center;
+    top:160em;
+}
+
+#button a {
+    padding:13px;
+    color: black;
+    background-color:orange;
+    opacity:0.6;
+    font-family:Century Gothic;
+    font-size:35px;
+    text-decoration:none;
+    border-radius:50px;
+}
+
+#button a:hover {
+    opacity:1;
+}
+
+#whitespace2 {
+    position:relative;
+    background-color:white;
+    top:160em;
+    height:300px;
+    width:3px;
+}
